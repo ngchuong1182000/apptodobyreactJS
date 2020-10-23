@@ -1,0 +1,37 @@
+.menu-main {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-item {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(221, 221, 221, 0.5);
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.menu-item-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  border: 1px solid #d3d3d3;
+}
+.menu-item-child img {
+  width: 20%;
+  color: #8cdc52;
+}
+.active {
+  background-color: white;
+  color: #8cdc52;
+  border-top: 5px solid #8cdc52;
+}

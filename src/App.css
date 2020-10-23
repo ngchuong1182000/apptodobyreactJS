@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.todolist{
+  width:30rem;
+  padding : 0;
+  margin : auto;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.header {
+  color:red;
+  font-size : 7rem;
+  opacity: 0.3;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+input{
+  line-height: 2rem;
+  padding-left: 1rem;
+  border : none;
+  font-size : 1.5rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  width: 100%;
+}
+input:focus{
+  outline: none;
+}
+.item{
+  margin: auto;
+}
+.footer-list{
+  font-size: 0.8rem;
+  color: #000 !important;
+}
+.group-middle{
+  display: flex;
+  margin: auto;
+  justify-content: space-between
+}
+.middle-item{
+  padding : 0 0.5rem;
+}
+.current{
+  border : 1px solid #000;
+  border-radius: 3px;
+}
